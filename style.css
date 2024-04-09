@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.fixed {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #434242;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 25px;
+}
+
+.fixed a {
+  color: #faebd7;
+  text-decoration: none;
+}
+
+.fixed a:hover {
+  background-color: #202020;
+}
+
+div {
+  height: 1000px;
+  background-color: beige;
+  margin: 30px 0 30px 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #743d3d;
+  height: 25px;
+}
+
+.sticky a {
+  color: #e0c39c;
+  text-decoration: none;
+}
